@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import java.sql.SQLOutput;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         System.out.println("Yo estuve aquí, soy el Daniel");
+
+        System.out.println("Sí, aquí");
     }
 }
